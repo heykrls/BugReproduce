@@ -1,0 +1,11 @@
+com.simperium.client.AuthException: Invalid username or password
+        at com.simperium.android.AsyncAuthClient$1.onCompleted(AsyncAuthClient.java:124)
+        at com.simperium.android.AsyncAuthClient$1.onCompleted(AsyncAuthClient.java:112)
+        at com.koushikdutta.async.http.AsyncHttpClient.invokeWithAffinity(AsyncHttpClient.java:540)
+        at com.koushikdutta.async.http.AsyncHttpClient.access$800(AsyncHttpClient.java:50)
+        at com.koushikdutta.async.http.AsyncHttpClient$7.run(AsyncHttpClient.java:547)
+        at com.koushikdutta.async.AsyncServer.lockAndRunQueue(AsyncServer.java:708)
+        at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:725)
+        at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:626)
+        at com.koushikdutta.async.AsyncServer.access$700(AsyncServer.java:41)
+        at com.koushikdutta.async.AsyncServer$13.run(AsyncServer.java:568)
